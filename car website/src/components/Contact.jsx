@@ -32,7 +32,7 @@ const emailHandler = (e) => {
 
   }
     return (
-        <div> 
+        
             
             <div className="contact-container"> 
             <div className="contact-image-container">
@@ -52,7 +52,7 @@ const emailHandler = (e) => {
           </div>
           </div>
            
-        </div>
+        
 
 
     )
