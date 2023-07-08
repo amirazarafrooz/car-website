@@ -6,6 +6,14 @@ import "../CSS/Productdetails.css";
 
 
 export const Productdetails = () => {
+  console.log('matn');
+  const params = useParams();
+
+  if(!myproductsList[params.id]) {
+    return (<div className="not-found-container">
+      <img className="car-not-found" src="../src/images/car-not-found.png"></img>
+    </div>)
+  }
   const [productDetails, setPoductDetails] = useState([]);
 
   useEffect(() => {
@@ -14,9 +22,9 @@ export const Productdetails = () => {
 
   const { id, name, cost, imgLink, caption } = productDetails;
 
-  const params = useParams();
 
-
+  console.log(params.id);
+  
   return (
     <div>
      
