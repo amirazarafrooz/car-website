@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:90px 55px;
+    background-color: #dee2e6;  
+
+}
+.product-name {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.product-caption {
+    font-size: 16px;
+    margin-right: 150px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+
+
+}
+.product-img{
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.product-cost {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+
+}
+.product-buy {
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+text-decoration: none;
+color: white;
+background-color: black;
+text-transform: uppercase;;
+padding: 10px 20px;
+margin-top: 50px;
+border-radius: 10px;
+width: 250px;
+height: 50px;
+cursor: pointer;
+}
+.back-product {    
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+text-decoration: none;
+color: white;
+background-color: grey;
+text-transform: uppercase;;
+padding: 10px 20px;
+margin-top: 50px;
+border-radius: 10px;
+font-size: 16px;
+width: 250px;
+height: 50px;
+cursor: pointer;
+}
+.back-aarow {
+    font-size: 16px;
+    /* display: block; */
+    display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: aqua; */
+width: 50px;
+height: 100%;
+}
+
